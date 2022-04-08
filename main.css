@@ -12,12 +12,12 @@ h1,h2{
 }
 p {
     text-align: justify;
-    font-family: cursive;
+    font-family: 'Anonymous Pro', monospace;  
     color: aliceblue;
 }
 li{
     text-align: justify;
-    font-family: cursive;
+    font-family: 'Anonymous Pro', monospace;  
     color: aliceblue;
 }
   
