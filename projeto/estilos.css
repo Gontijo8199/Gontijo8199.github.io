@@ -6,10 +6,33 @@ body {
   color: whitesmoke;
   font-family: monospace;
 }
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: lightblue;
+  width: 100%;
+}
+th, td{
+    border: 1px solid;
+    border-color: lightblue;
+    border-collapse: collapse;
+    background-color: #001536;
+    font-size: 120%;
+    text-align: center;
+}
+.table{
+  border: 1px solid;
+  border-color: lightblue;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0% 0% 0% 46%;
+
+  
+}
 .borda{
   border: 5px solid white;
   border-radius: 15px;
-  max-width: 100%;
+  max-width: 60%;
 }
 #postagens .conteudo .titulo {
   text-decoration: underline;
@@ -24,6 +47,7 @@ body {
 }
 #postagens .conteudo{
   margin-left: 2%;
+  margin-bottom: 2%;
   
 }
 
@@ -31,7 +55,7 @@ body {
 #postagens .conteudo img {
   width: 100%;
   max-width: 400px;
-  box-shadow: 5px 10px rgba(230, 215, 215, 0.357);
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.357);
   border-radius: 15px 50px 30px;
   box-sizing: border-box;
   border: 5px solid white;
