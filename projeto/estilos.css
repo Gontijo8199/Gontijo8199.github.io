@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(0deg, #030914, #0a2552, #091938);
+
+  background-size: cover;
+  color: whitesmoke;
+  font-family: monospace;
+}
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: lightblue;
+  width: 100%;
+}
+th, td{
+    border: 1px solid;
+    border-color: lightblue;
+    border-collapse: collapse;
+    background-color: #001536;
+    font-size: 120%;
+    text-align: center;
+}
+.table{
+  border: 1px solid;
+  border-color: lightblue;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0% 0% 0% 46%;
+
+  
+}
+.borda{
+  border: 5px solid white;
+  border-radius: 15px;
+  max-width: 60%;
+}
+#postagens .conteudo .titulo {
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px black;
+  
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 1em;
+  font-size: 120%;
+  padding-left: 2%;
+}
+#postagens .conteudo{
+  margin-left: 2%;
+  margin-bottom: 2%;
+  
+}
+
+
+#postagens .conteudo img {
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.357);
+  border-radius: 15px 50px 30px;
+  box-sizing: border-box;
+  border: 5px solid white;
+  margin-bottom: .5em;
+}
+
+
+#participe {
+  position: relative;
+  top: 0;
+  z-index: 1;
+  float: right;
+  width: 40%;
+  background: #001536;
+  padding: 1em;
+  text-align: center;
+}
+
+#galeria {
+  position: relative;
+  top: 0;
+  z-index: 1;
+  float: left;
+  width: 35%;
+  margin-top: 4%;
+  background: #001536;
+  padding: 1em;
+  text-align: center;
+  
+  
+}
+
+header h1::selection,
+header h2::selection{
+  background: rgb(255, 54, 54);
+}
+article h1::selection,
+article h2::selection{
+  background-color: rgba(106, 106, 234, 0.6);
+}
+#principal {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 275%;
+  padding-top: 0%;
+  padding-bottom: 1%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  color: whitesmoke;
+  text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+}
+header {
+  background-image: linear-gradient(0deg, crimson, rgb(101, 12, 29));
+  padding-top: 1%;
+  text-align: center;
+}
+#link{
+  color: lightblue;
+}
+.left, #pontos, #viagens
+{
+  text-align: left;
+  margin: 0% 0% 0% 40%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+#viagens{
+  margin-top: 5%;
+}
+.subtitulo {
+  padding-top: 1%;
+
+  text-align: left;
+  font-size: 140%;
+  
+}
+main{
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+.imagem{
+  width: 100%;
+  max-width: 50%;
+  box-sizing: border-box;
+  border: 5px solid white;
+  margin-bottom: .5em;
+  display: block;
+  margin: 0% 0% 0% 46%;
+  
+  
+
+}
+.logo{
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 0%;
+  display: block;
+  margin: auto;
+  
+  padding-bottom: 0%;
+}
+.info{
+  text-align: justify;
+  font-size: 119%;
+  font-family: 'Trebuchet MS','Lucida Sans', Arial, sans-serif; 
+
+}
+.info2{
+  text-align: justify;
+  font-size: 119%;
+  font-family: 'Trebuchet MS','Lucida Sans', Arial, sans-serif; 
+
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Trebuchet MS','Lucida Sans', Arial, sans-serif; 
+}
+p{
+  font-family: 'Trebuchet MS','Lucida Sans', Arial, sans-serif; 
+
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace
+}
+
+header nav ul {
+  padding-left: 0;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-bottom: 0;
+  background-image: linear-gradient(90deg, lightgray, whitesmoke, lightgray);
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 160%;
+  border-bottom: 3px solid transparent;
+  margin: 0 1em;
+
+}
+header a:hover{
+  text-decoration: underline;
+}
+
+header a {
+  text-decoration: none;
+  text-shadow: 1px 1px whitesmoke;
+}
+header a::selection{
+  background-color: rgba(211, 211, 211, 0.5);
+}
+.subtitulo:hover{
+  text-decoration: underline;
+
+}
+.subtitulo::selection{
+  background-color: rgb(57, 57, 212);
+}
+.info::selection,
+.info2::selection{
+  background-color: rgb(57, 57, 212);
+
+}
+
+
+
+a:link,
+a:visited,
+a:active {
+  color: black;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, .7);
+  padding: 1em;
+  clear: right;
+}
+
+
+footer .texto-rodape {
+  display: inline-block;
+  width: calc(100% - 215px - 2em - 2em);
+  
+  vertical-align: top;
+}
+
+
+
+#postagens h1 {
+  margin-bottom: 1em;
+}
+
+#postagens .conteudo {
+  width: 40%;
+  max-width: 400px;
+  
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
