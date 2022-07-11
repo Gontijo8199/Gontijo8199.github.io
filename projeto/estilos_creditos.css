@@ -17,4 +17,13 @@
     font-family: 'Anonymous Pro', monospace;  
 
 }
+p, li, ol {
+    font-size: xx-large;
+    list-style-type: none;
+
+    
+}
+li:hover{
+    text-decoration: underline;
+}
 * { color:#fff; text-decoration: none; }
