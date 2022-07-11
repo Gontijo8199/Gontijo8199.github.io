@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+#creditos{
+    background-color: #0a2552;
+    margin: 0;
+    
+    
+    background-size: cover;
+    
+    text-align: center;
+    color:#fff;
+    font-family: monospace;
+}
+.typewrite{
+    font-size: 300%;
+    color: whitesmoke;
+    font-family: 'Anonymous Pro', monospace;  
+
+}
+* { color:#fff; text-decoration: none; }
