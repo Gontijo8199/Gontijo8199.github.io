@@ -1,0 +1,30 @@
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+* { color:#fff; text-decoration: none; }
+#integrantes{
+    background-color: #0a2552;
+    margin: 0;
+    
+    
+    background-size: cover;
+    
+    text-align: center;
+    color:#fff;
+    font-family: monospace;
+
+}
+p{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.fotos{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    max-width: 15%;
+}
+#especial{
+    padding-top: 2%;
+    font-size: xx-large;
+}
