@@ -19,9 +19,14 @@
 }
 p, li, ol {
     font-size: xx-large;
+    
     list-style-type: none;
 
     
+}
+.ref
+{
+    color: #fff;
 }
 li:hover{
     text-decoration: underline;
